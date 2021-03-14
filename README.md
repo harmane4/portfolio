@@ -1,15 +1,15 @@
 # 02 Advanced CSS Professional Portfolio Homework Assignment
 ## Description
 
-For this project I created a web application in the form of a portfolio from scrach. 
+For this project I created a web application in the form of a portfolio from scratch. 
 
-The web application displays of work which can be viewed once clicked on. As I am still building my portfolio, only one link is active. 
+The web application displays my work which can be viewed once clicked on. As I am still building my portfolio, only one link, the refracting project is active. 
 
-Problems that were solved 
+Problems that were solved was making the webpage responsive. 
 
 ## Usage
  
-![Screen-shot-of-final-product](assets/images/Horiseon-Screenshot.png)
+![Screen-shot-of-final-product](Assests/images/Screenshot.png)
 
 [Link to deployed application](https://github.com/harmane4/portfolio)
 
@@ -36,6 +36,8 @@ Websites used to create application:
 
 
 [Flex Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[Hover](https://www.w3schools.com/cssref/sel_hover.asp)
 
 ## License 
 [MIT](https://choosealicense.com/licenses/mit/)
