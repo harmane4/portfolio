@@ -5,11 +5,11 @@ For this project I created a web application in the form of a portfolio from scr
 
 The web application displays my work which can be viewed once clicked on. As I am still building my portfolio, only one link, the refracting project is active. 
 
-Problems that were solved was making the webpage responsive. 
+Problems that were solved was making the webpage responsive 
 
 ## Usage
  
-[Screen-shot-of-final-product](Assests/images/Screenshot.png)
+![Screen-shot-of-final-product](Assests/images/Screenshot.png)
 
 [Link to deployed application](https://github.com/harmane4/portfolio)
 
