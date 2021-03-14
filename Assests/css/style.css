@@ -29,7 +29,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 3%;
-      height: 30px;
+      height: 4em;
 }
 
 h1 {
@@ -52,7 +52,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:black;
   }
   
   nav li {
