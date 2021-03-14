@@ -46,21 +46,20 @@ h2 {
 }
 
   /* Nav Bar */
-
-nav ul {
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  nav li {
+  li {
     float: right;
     text-decoration: underline;
     background-color: whitesmoke;
   }
   
-  nav li a {
+ li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -80,8 +79,7 @@ nav ul {
     }
   
     .about-me-image {
-      height: auto;
-      width: auto;
+      max-height: auto;
       opacity: 1;
       overflow-wrap: break-word;
       display: flex;
@@ -90,7 +88,7 @@ nav ul {
       flex: 1 0 200px;
       width: 100%;
       box-sizing: content-box;
-      object-fit: cover;
+      object-fit: contain;
       margin-left: 5px;
     }
   
