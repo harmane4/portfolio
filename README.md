@@ -29,13 +29,13 @@ Images used as place holder images:
 [Hero Image](https://unsplash.com/photos/5Ui5glVjUAQ)
 
 
-
-
 Websites used to create application: 
 
  
 [Horizontal nav bar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
 
+
+[Flex Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## License 
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -14,58 +14,26 @@
     opacity: 1;
   }
   
-  .about-me {
-    display: flex;
-  }
-
-  .about-me-image {
-    height: auto;
-    width: auto;
-    opacity: 1;
-    overflow-wrap: break-word;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 0 200px;
-    width: 100%;
-    box-sizing: content-box;
-    object-fit: cover;
-
-  }
-
   p {
     color: black;
-    word-wrap: break-word;
-    margin-left: 250px;
-    display: flex;
     line-height: 1.6;
     display: flex;
-    flex: 0 0 auto;
-  }
-
-  .hero {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-
+    position: relative;
+    flex-wrap: wrap;
   }
   
 /* Header */
 .header {
     background-color: black;
     color: #ffffff;
-      display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1%;
+      padding: 3%;
       height: 30px;
 }
 
 h1 {
-  position: relative;
+  position: flex;
   margin: 40px;
 }
 
@@ -79,38 +47,64 @@ h2 {
 
   /* Nav Bar */
 
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:black;
-    color: white;
   }
   
   nav li {
     float: right;
     text-decoration: underline;
+    background-color: whitesmoke;
   }
   
   nav li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
   }
 
-/*Body*/
+  .hero {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+    /* About me */
+    .about-me {
+      display: flex;
+    }
+  
+    .about-me-image {
+      height: auto;
+      width: auto;
+      opacity: 1;
+      overflow-wrap: break-word;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 0 200px;
+      width: 100%;
+      box-sizing: content-box;
+      object-fit: cover;
+      margin-left: 5px;
+    }
+  
+    .about-me p {
+      margin-left: 20px;
+    }
 
-
-/*Flex*/
+/*Work */
 main {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
   flex-direction: row;
-  margin-left: 240px;
 }
 
 .card {
@@ -158,9 +152,8 @@ main {
   }
   
   .foot-text {
-    margin-left: 250px;
   }
-   /* Link Style */
+   /* Header & Footer Link Style */
 
   a:link {
     background-color: transparent;
