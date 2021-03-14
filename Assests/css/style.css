@@ -4,19 +4,27 @@
 
   img {
     height: 250px;
-    width: 300px;
+    width: 100%;
+    opacity: 0.5;
   }
   
   .about-me-image {
     height: auto;
     width: auto;
-    margin-left: 250px;
+    opacity: 1;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
   }
 
   p {
     color: black;
     word-wrap: break-word;
     margin-left: 250px;
+    display: flex;
+    line-height: 1.6;
   }
 
   .hero {
@@ -55,6 +63,7 @@ h2 {
 
   /* Nav Bar */
 
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -79,7 +88,6 @@ nav ul {
 /*Body*/
 
 
-
 /*Flex*/
 main {
   display: flex;
@@ -96,10 +104,16 @@ main {
   border-width: 1px;
 }
 
+img:hover {
+  opacity: 1;
+
+}
+
 .card header {
   padding: 20px;
   background: #F97D62;
   color: #fff;
+  opacity: 0.5;
 }
 
 .card img {
@@ -115,35 +129,6 @@ main {
 }
 
 
-
-  /* Grid 
-
-
-  .grid-item1 {
-    grid-area: myArea;
-    background-size: 100%;
-    background-size: cover;
-  }
-  .grid-container {
-    display: inline-grid;
-  grid-template-areas: 'myArea myArea';
-  grid-gap: 5px;
-  background-color: white;
-  padding: 10px;
-  background-size: cover;
-  column-gap: 5px;
-  }
-    
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
-
-
-
-      /* Images */
  
 
     /* Footer */
@@ -191,33 +176,4 @@ main {
   }
 
 
-
-
-
-
-    /* Images 
-
-    .products {
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-       
-    }
-
-      .card header {
-        padding: 20px;
-      }
-      
-      .card p {
-        text-align: center;
-      }
-      
-      .card img {
-        width: 300px;
-        height: 150px;
-      }
-  
-
-      img {
-        object-fit: cover;
-      }
+ 
