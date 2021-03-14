@@ -1,7 +1,8 @@
-img {
-    width: 50%;
-    height: 50%;
-}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
 
 .header {
     padding: 20px;
@@ -32,4 +33,105 @@ ul {
     text-decoration: none;
   }
 
+  /* Grid */
+
+
+  .grid-item1 {
+    grid-area: myArea;
+  }
+  .grid-container {
+    display: grid;
+  grid-template-areas: 'myArea myArea';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  background-size: cover;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+    
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+
+    /* Footer */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .contact {
+    text-align: left;
+  }
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+    /* Images 
+
+    .products {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+      .card header {
+        padding: 20px;
+      }
+      
+      .card p {
+        text-align: center;
+      }
+      
+      .card img {
+        width: 300px;
+        height: 150px;
+      }
   
+
+      img {
+        object-fit: cover;
+      }
