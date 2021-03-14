@@ -2,58 +2,136 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
+  img {
+    height: 250px;
+    width: 300px;
+  }
+  
+  .about-me-image {
+    height: auto;
+    width: auto;
+    margin-left: 250px;
+  }
 
+  p {
+    color: black;
+    word-wrap: break-word;
+    margin-left: 250px;
+  }
 
+  .hero {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/praewthida-k-5Ui5glVjUAQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+/* Header */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1%;
+      height: 30px;
 }
 
+h1 {
+  position: relative;
+  margin: 40px;
+}
 
-/* Nav Bar */
-ul {
+h1 span {
+  background-color: #F97D62;
+}
+
+h2 {
+  color: #F97D62;
+}
+
+  /* Nav Bar */
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:black;
+    color: white;
   }
   
-  li {
+  nav li {
     float: right;
+    text-decoration: underline;
   }
   
-  li a {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
   }
 
-  /* Grid */
+/*Body*/
+
+
+
+/*Flex*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  flex-direction: row;
+  margin-left: 240px;
+}
+
+.card {
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #F97D62;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+
+.active {
+  order: -1;
+  flex: 1 0 100%;
+}
+
+
+
+  /* Grid 
 
 
   .grid-item1 {
     grid-area: myArea;
+    background-size: 100%;
+    background-size: cover;
   }
   .grid-container {
-    display: grid;
+    display: inline-grid;
   grid-template-areas: 'myArea myArea';
-  grid-gap: 10px;
+  grid-gap: 5px;
   background-color: white;
   padding: 10px;
   background-size: cover;
-  }
-
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  column-gap: 5px;
   }
     
   .grid-container > div {
@@ -63,46 +141,54 @@ ul {
     font-size: 30px;
   }
 
-  img {
-    height: 150px;
-    width: 300px;
-    object-fit: cover;
-  }
 
+
+      /* Images */
+ 
 
     /* Footer */
   footer {
-    background-color: black;
-    color: white;
+    background-color: white;
     text-align: center;
+    padding: 0;
   }
+
+    .contact a {
+      color: #F97D62;
+    }
+    
+    footer a {
+      color: #F97D62
+    }
 
   .contact {
     text-align: left;
   }
+  
+  .foot-text {
+    margin-left: 250px;
+  }
+   /* Link Style */
 
   a:link {
-    color: white;
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: white;
+    color: #F97D62;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: white;
+    color: #F97D62;
     background-color: transparent;
     text-decoration: underline;
   }
   a:active {
-    color: white;
+    color: #F97D62;
     background-color: transparent;
     text-decoration: underline;
   }
-
-
 
 
 
