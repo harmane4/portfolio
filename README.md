@@ -9,7 +9,7 @@ Problems that were solved was making the webpage responsive.
 
 ## Usage
  
-![Screen-shot-of-final-product](Assests/images/Screenshot.png)
+[Screen-shot-of-final-product](Assests/images/Screenshot.png)
 
 [Link to deployed application](https://github.com/harmane4/portfolio)
 
