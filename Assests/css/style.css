@@ -1,5 +1,7 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0; 
+    margin: 0;
   }
 
   img {
@@ -7,7 +9,15 @@
     width: 100%;
     opacity: 0.5;
   }
+
+  img:hover {
+    opacity: 1;
+  }
   
+  .about-me {
+    display: flex;
+  }
+
   .about-me-image {
     height: auto;
     width: auto;
@@ -16,6 +26,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1 0 200px;
+    width: 100%;
+    box-sizing: content-box;
+    object-fit: cover;
 
   }
 
@@ -25,6 +39,8 @@
     margin-left: 250px;
     display: flex;
     line-height: 1.6;
+    display: flex;
+    flex: 0 0 auto;
   }
 
   .hero {
@@ -104,11 +120,6 @@ main {
   border-width: 1px;
 }
 
-img:hover {
-  opacity: 1;
-
-}
-
 .card header {
   padding: 20px;
   background: #F97D62;
@@ -122,14 +133,10 @@ img:hover {
   object-fit: cover;
 }
 
-
 .active {
   order: -1;
   flex: 1 0 100%;
 }
-
-
- 
 
     /* Footer */
   footer {

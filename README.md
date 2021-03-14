@@ -16,8 +16,23 @@ Problems that were solved
 ## Credits
 Images used as place holder images:
 
+[Code computer image](https://www.pexels.com/photo/black-and-gray-laptop-computer-546819/)
+
+[Woman on computer](https://www.pexels.com/photo/crop-lady-surfing-information-for-work-on-modern-computer-5325056/)
+
+[Woman writing on calander](https://www.pexels.com/photo/crop-lady-surfing-information-for-work-on-modern-computer-5325056/)
+
+[Question Mark Image](https://www.pexels.com/photo/question-mark-illustration-356079/)
+
+[Lock Image](https://www.pexels.com/photo/strong-lock-locked-padlock-39624/)
+
+[Hero Image](https://unsplash.com/photos/5Ui5glVjUAQ)
+
+
+
+
 Websites used to create application: 
-[README.md content](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide )
+
  
 [Horizontal nav bar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
 
@@ -25,30 +40,3 @@ Websites used to create application:
 ## License 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-
-
-
-
-
-Wine Barrel
-https://www.pexels.com/photo/barrels-on-trailers-1267359/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
-
-Wine
-https://www.pexels.com/photo/person-pouring-wine-on-wine-glass-3171158/
-https://www.pexels.com/photo/pile-of-brown-wooden-barrels-2440529/
-
-Bar 
-https://www.pexels.com/photo/assorted-wine-bottles-1283219/
-
-Copywriting 
-https://www.pexels.com/search/grazing%20table/
-
-Flowers 
-https://www.pexels.com/photo/white-rose-and-pink-smoke-3576112/
-
-Photography
-https://www.pexels.com/photo/man-holding-camera-while-squating-with-smoke-on-face-inside-building-598917/
-
-Code 
-https://www.pexels.com/photo/black-and-gray-laptop-computer-546819/
