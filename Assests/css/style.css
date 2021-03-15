@@ -43,6 +43,12 @@ h1 span {
 
 h2 {
   color: #F97D62;
+  
+}
+
+.about-me-heading {
+  border-right: solid black;
+  padding-right: 0.5em;
 }
 
   /* Nav Bar */
@@ -104,21 +110,21 @@ main {
   flex-direction: row;
 }
 
-.card {
+.work-content {
   flex: 1 0 200px;
   padding: 10px;
   text-align: center;
   border-width: 1px;
 }
 
-.card header {
+.work-content header {
   padding: 20px;
   background: #F97D62;
   color: #fff;
   opacity: 0.5;
 }
 
-.card img {
+.work-content img {
   width: 100%;
   box-sizing: content-box;
   object-fit: cover;
@@ -135,16 +141,11 @@ main {
     text-align: center;
     padding: 0;
   }
-
-    .contact a {
-      color: #F97D62;
-    }
-    
     footer a {
       color: #F97D62
     }
 
-  .contact {
+  #contact {
     text-align: left;
   }
   
