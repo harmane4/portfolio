@@ -7,7 +7,6 @@ The web application displays my work which can be viewed once clicked on.
 
 ## Usage
  
-![Screen-shot-of-final-product](Assests/images/aboutMeScreenshot.png)
 
 ![Screen-shot-of-final-product](Assests/images/portfolioScreenshiot.png)
 
